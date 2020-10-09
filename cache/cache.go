@@ -14,8 +14,8 @@ type Cache struct {
 	evictFunc func(k interface{}, v interface{}) error
 }
 
-// kv represents a key-value pair
-// as an element in the stack
+// kv represents a key-value pair to
+// be used as an element in the stack
 type kv struct {
 	k interface{}
 	v interface{}
