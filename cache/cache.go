@@ -10,7 +10,7 @@ import (
 type Cache struct {
 	size      int
 	seen      map[interface{}]*list.Element // required for constant-time access
-	stack     *list.List					// required for order keeping
+	stack     *list.List                    // required for order keeping
 	evictFunc func(k interface{}, v interface{}) error
 }
 
