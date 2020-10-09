@@ -26,7 +26,7 @@ func main() {
 		// if val, ok := cache.Get(threatPurpose); ok {
 		// 	finding := val.(guardduty.Finding)
 		// 	finding.Inc()
-		// 	cache.Put(threatPurpose, finding.Data)
+		// 	cache.Put(threatPurpose, finding)
 		// } else {
 		// 	cache.Put(threatPurpose, guardduty.NewFinding(threatPurpose))
 		// }
